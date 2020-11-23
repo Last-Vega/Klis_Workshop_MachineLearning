@@ -128,3 +128,6 @@ dmypy.json
 PokemonImages
 dataset
 ValidationData
+
+# アップロードしなくていい学習済みのフォルダ
+results
