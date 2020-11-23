@@ -57,32 +57,31 @@ validation Human-Like : 36
 validation Monster : 31
 validation Water : 58
 
+水増し後
+train Field : 404
+train Undiscovered : 489
+train Bug : 455
+train Amorphous : 460
+train Dragon : 477
+train Fairy : 415
+train Mineral : 424
+train Flying : 437
+train Grass : 405
+train Human-Like : 420
+train Monster : 396
+train Water : 443
 
+validation Field : 371
+validation Undiscovered : 358
+validation Bug : 403
+validation Amorphous : 430
+validation Dragon : 417
+validation Fairy : 407
+validation Mineral : 406
+validation Flying : 371
+validation Grass : 335
+validation Human-Like : 426
+validation Monster : 391
+validation Water : 400
 
-3枚ずつ増やしたとき (4倍近くになる)
-train Field : 803
-train Undiscovered : 396
-train Bug : 308
-train Amorphous : 204
-train Dragon : 214
-train Fairy : 188
-train Mineral : 190
-train Flying : 195
-train Grass : 184
-train Human-Like : 144
-train Monster : 124
-train Water : 256
-
-validation Field : 722
-validation Undiscovered : 292
-validation Bug : 272
-validation Amorphous : 194
-validation Dragon : 187
-validation Fairy : 182
-validation Mineral : 184
-validation Flying : 167
-validation Grass : 152
-validation Human-Like : 142
-validation Monster : 124
-validation Water : 231
 """
