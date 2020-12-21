@@ -131,3 +131,8 @@ ValidationData
 
 # アップロードしなくていい学習済みのフォルダ
 results
+
+# 多すぎる画像
+AllDataSet/train/*/zoomed*.png
+
+*.zip
