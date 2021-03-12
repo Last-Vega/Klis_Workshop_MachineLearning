@@ -7,23 +7,32 @@ def train_data_augmentation():
         'Flying', 'Grass', 'Human-Like', 'Monster', 'Water'
     ]
 
+    sum = 0
     for dir_name in dir_name_list:
         target_dir = './AllDataSet/train/' + dir_name + '/'
         # .DS_Storeの削除
         fltr_list = [filename for filename in listdir(target_dir) if not filename.startswith('.')]
 
+        sum += len(fltr_list)
         print('train', dir_name, ':', len(fltr_list) )
+
+    print(sum)
 
 def validation_data_augmentation():
     dir_name_list = ['Field', 'Undiscovered', 'Bug', 'Amorphous', 'Dragon', 'Fairy', 'Mineral',
         'Flying', 'Grass', 'Human-Like', 'Monster', 'Water'
     ]
+
+    sum = 0
     for dir_name in dir_name_list:
         target_dir = './AllDataSet/validation/' + dir_name + '/'
         # .DS_Storeの削除
         fltr_list = [filename for filename in listdir(target_dir) if not filename.startswith('.')]
 
+        sum += len(fltr_list)
         print('validation', dir_name, ':', len(fltr_list) )
+
+    print(sum)
 
 train_data_augmentation()
 validation_data_augmentation()
